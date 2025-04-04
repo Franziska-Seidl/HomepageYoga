@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--Schaut auf Handy genauso aus wie auf PC-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <title>Yoga mit Franzi</title>
+</head>
+
+<body>
+  
+<div class="container">
+    <h1>Willkommen bei Yoga mit Franzi</h1>
+</div>
+
+
+<nav>
+  <a href="#tabelle-terminplan" >Terminplan</a>
+  <a href="#tabelle-preise">Preise</a>
+  <a href="#übermich">Über mich</a>
+  <a href="#bildergalerie">Bildergalerie</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
+<section>
+  <div class="container-übermich" id="übermich">
+    <div class="porträt">
+      <img src="BildÜberMich.JPEG" alt="Porträtfoto">
+    </div>
+    <div>
+    <h2>Über Mich</h2>
+    <p>
+    Seit 2023 bin ich zertifizierte Yogalehrerin mit einer umfassenden Ausbildung von insgesamt 400 Stunden in Hatha Yoga. Zusätzlich habe ich einen weiterführenden Kurs im Anusara Yoga absolviert, um mein Wissen und meine Praxis zu vertiefen.
+
+    Meine Stunden gestalten sich herausfordernd, jedoch immer im Einklang mit dem Atem. Sie kombinieren fließende Elemente mit kräftigenden, statischen Asanas. Dabei ist es mir besonders wichtig, das Zusammenspiel von Körper und Atem zu fördern. Mein Ziel ist es, dir zu helfen, diese beiden zu verbinden und so den Kontakt zu dir selbst zu vertiefen.
+    </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="philosophie">
+<h2>Meine Philosophie</h2>
+<p>Yoga ist für mich mehr als eine körperliche Übung – es ist eine Lebensweise, eine innere Reise und eine bewusste Entscheidung für Achtsamkeit, Balance und Selbstentfaltung.
+
+    Ich praktiziere Yoga, weil es mich mit dem Hier und Jetzt verbindet. Jeder Atemzug, jede Bewegung, jede Asana ist eine Einladung, meinen Körper bewusst zu spüren, meine Gedanken zu ordnen und mich mit meiner inneren Mitte zu verbinden. Yoga lehrt mich, Geduld mit mir selbst zu haben, loszulassen, was mich belastet, und mich für das zu öffnen, was mir guttut.</p>
+</div>
+</section>
+
+<section>
+  <div class="container-tabelle-1" id="tabelle-terminplan">
+    <table>
+    <caption>Terminplan</caption>
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>Uhrzeit</th>
+        <th>Kurs</th>
+        <th>Beschreibung</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Montag</td>
+        <td>18:00 Uhr</td>
+        <td>Hatha</td>
+        <td>Mit dem Atem im Fluss</td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+</section>
+
+
+<section>
+  <div class="container-tabelle-2" id="tabelle-preise">
+  <table>
+    <caption>Preise</caption>
+    <thead><tr>
+      <th></th>
+      <th>Preis </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Schnupperstunde</td>
+      <td> 15€</td>
+    </tr>
+    <tr>
+        <td>Gruppenstunde 10x</td>
+        <td> 120€ </td>
+      </tr>
+      <tr>
+        <td>Einzelunterricht</td>
+        <td> 80€</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+</div>
+</section>
+
+<section>
+  
+  <div class="bildergalerie" id="bildergalerie">
+    <h2>Bildergalerie</h2>
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  <div class="mySlides fade" >
+      <img src="Bildergalerie1.JPEG" class="bilder" >
+    </div>
+
+    <div class="mySlides fade"> 
+      <img src="Bildergalerie2.JPEG" class="bilder">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Bildergalerie3.JPG" class="bilder">
+    </div>
+
+    <div class="mySlides fade">  
+      <img src="Bildergalerie4.JPG" class="bilder">
+    </div>
+
+    <div class="mySlides fade"> 
+      <img src="Bildergalerie5.PNG" class="bilder">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="Bildergalerie6.JPG" class="bilder">
+    </div>
+    <div class="pfeile">
+      <a class="prev" onclick="minusSlides()">&#10094;</a>
+      <a class="next" onclick="plusSlides()">&#10095;</a>
+    </div>
+  </div>
+</section>
+
+<a class="anmelden"href="" target="_blank">Anmelden</a>
+
+<footer id="kontakt">
+<a href="https://www.instagram.de/" target="_blank"><i class="fab fa-instagram"></i></a>
+ <p>Franziska Seidl | Yogalehrerin | info@yogamitfranzi.de | Beispieladresse | 86159 Augsburg
+  </p>
+</footer>
+<script src="script.js" defer></script>
+</body>
+
+</html> 
