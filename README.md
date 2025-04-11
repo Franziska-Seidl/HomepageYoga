@@ -3,6 +3,7 @@
 About the Project
 
 This project is a fictional website created as a personal exercise to practice and improve my web development skills. It’s my very first project using HTML and CSS, and I used Visual Studio Code as my code editor throughout the development process. The goal was to design and build a clean, calm, and informative homepage for an imaginary independent yoga teacher.
+
 What the Website Includes
 
 The website features several sections that are typical for a small business homepage. These include:
@@ -18,6 +19,8 @@ The website features several sections that are typical for a small business home
   A gallery page with sample images to convey the atmosphere of the yoga practice.
 
 Even though this is a fictional project, I tried to make the layout and structure as realistic as possible, focusing on good readability, accessibility, and a calming visual design.
+
+
 Technologies Used
 
 Since this was a beginner-friendly project, I kept the tech stack simple:
@@ -29,6 +32,8 @@ Since this was a beginner-friendly project, I kept the tech stack simple:
   Visual Studio Code as my development environment
 
 There is no JavaScript or backend functionality included, as the main goal was to gain confidence in writing semantic HTML and styling with CSS.
+
+
 Project Purpose
 
 This website is not intended to be published or used by an actual client. It was built entirely as a learning experience – a way to apply the basic concepts I’ve learned so far and to begin building a portfolio of small web projects. Working on this helped me understand how to structure a website, link pages together, and style elements using classes and IDs.
